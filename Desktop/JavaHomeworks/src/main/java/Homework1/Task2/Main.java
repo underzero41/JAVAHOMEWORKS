@@ -1,4 +1,4 @@
-package Task2;
+package Homework1.Task2;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
