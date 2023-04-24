@@ -2,7 +2,7 @@ package Homework3.Task4;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Task4 {
+public class Main {
     public static void main(String[] args) {
         Integer result = 0;
         ArrayList<Integer> numbers = getNums();
