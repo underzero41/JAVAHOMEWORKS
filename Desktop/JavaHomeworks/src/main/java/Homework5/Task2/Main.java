@@ -1,7 +1,5 @@
 package Homework5.Task2;
 
-import javax.lang.model.element.Name;
-import java.sql.Array;
 import java.util.*;
 
 public class Main {
