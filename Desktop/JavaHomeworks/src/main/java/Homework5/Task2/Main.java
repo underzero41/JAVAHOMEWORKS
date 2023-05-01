@@ -1,18 +1,20 @@
 package Homework5.Task2;
 
+import javax.lang.model.element.Name;
+import java.sql.Array;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         LinkedList<Person> persons = getPerson();
-        ArrayList<String> names = new ArrayList<>();
         TreeMap<String, Integer> treeMap = new TreeMap<>();
-        for (Person person: persons){
+        for(Person person: persons) {
+
             treeMap.putIfAbsent(person.getName(), 0);
-            if(treeMap.get(person.getName()).equals(treeMap.get(person.getName()+1))){
-                treeMap.values();
-            }
-            System.out.println(treeMap);
+            treeMap.put(person.getName(), treeMap.get(person.getName()) + 1);
+        }
+        for(var entry: treeMap.entrySet()){
+            System.out.println(entry.getKey() + ": " + entry.getValue());
         }
         }
 
