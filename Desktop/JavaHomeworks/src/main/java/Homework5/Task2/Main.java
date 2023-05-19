@@ -12,7 +12,7 @@ public class Main {
             treeMap.put(person.getName(), treeMap.get(person.getName()) + 1);
         }
         for(var entry: treeMap.entrySet()){
-            System.out.println(entry.getKey() + ": " + entry.getValue());
+            System.out.println((entry.getKey() + ": " + entry.getValue()));
         }
         }
 
